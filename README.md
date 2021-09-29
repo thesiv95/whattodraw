@@ -17,13 +17,13 @@ const whatToDraw = require('whattodraw'); // CommonJS syntax
 import whatToDraw from 'whattodraw'; // ES6 module syntax
 ```
 
-* Call `generate()` function:
+* Call `whatToDraw()` instance:
 ```javascript
-whatToDraw.generate();
+whatToDraw();
 ```
 * This function accept one optional parameter - items (how many suggestions should be returned), e.g.:
 ```javascript
-whatToDraw.generate(5); // ['suggestion1', ..., 'suggestion5']
+whatToDraw(5); // ['suggestion1', ..., 'suggestion5']
 ```
 * Parameter could not be NaN type or less than 1
 
